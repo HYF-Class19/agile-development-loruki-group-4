@@ -18,7 +18,9 @@
     "Bilde",
     "Christiaan",
     "Verwijs",
-    "Todos"
+    "Todos",
+    "Loruki",
+    "webhosting"
   ],
   "ignorePaths": [
     "node_modules/**",

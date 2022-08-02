@@ -7,24 +7,55 @@ create your own!
 
 ## Must-Haves
 
-> these are necessary for basic usability
+## Navbar
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [] As a user I can use navbar to navigate myself to different pages
+
+> There is a suitable navbar links with the name of pages.
+
+## Installing
+
+- [] As a user I can see the instruction of installing on the docs page and demo
+  on the home page
+
+> There is a demo of installing the framework on the home page and more info on
+> the docs.
+
+## list of supported lang
+
+- [] As a user I can see if this framework suitable to my programming language;
+
+> There are list of languages which are supported
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+- [] As a user I want to read more information about the Loruki platform
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+> There is link at the top of home page which navigate to features.
+
+- [] As a user I would like to see the statistic of the platform
+
+> There are some stats on the home page
+
+- [] As a user I would like to see some more info about features in the main
+  page
+
+  > There is info about the framework on the home page and nav button to
+  > features
+
+### The footer
+
+- [] As a user I want to see footer with page and social media links
+
+> There is footer with links to other pages and to social media
+
+### Features page
+
+- [] As a user I want to see features in features page
+  > There is a futures page
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+- [] As a user I could like to request a demo for my project
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+> It will be great to have a form with request for a demo
