@@ -1,4 +1,6 @@
-# Restaurants finder
+# Loruki
+
+![design](../public/design.loruki.png)
 
 ---
 
@@ -16,24 +18,24 @@
 
 ## 0.Setup
 
-- ...
-- ...
+- web page frame work in html
+- css style
+- link all components to the right element
 
 ---
 
 ## 1. Title
 
-**As a user I want to ...**
+- As a user I can find a title of the page
 
-- This user story is developed on branch `branch-name`.
-- This branch is merged to `master` branch after completion.
+- The web title and easy to find
 
-### Task n1
+- Intro is short and well descriptive with
 
-- ...
-- ...
+## 2. Navbar
 
-### Task n2
+- navigation bar to different pages
 
-- ...
-- ...
+## 3. Form
+
+- three input sections for name/company/email
