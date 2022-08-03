@@ -96,3 +96,8 @@ pre {
   overflow: auto;
   padding: 0 40px;
 }
+
+/* Footer */
+.footer .social a {
+  margin: 0 10px;
+}
