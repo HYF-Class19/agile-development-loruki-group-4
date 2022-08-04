@@ -8,6 +8,7 @@
   --success-color: #5cb85c;
   --error-color: #d9534f;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -279,22 +280,22 @@ pre {
 
 /* Languages */
 .languages .flex {
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .languages .card {
-	text-align:center;
-	margin: 18px 10px 40px;
-	transition:transform 0.2s ease-in;
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
 }
 
 .languages .card h4 {
-	font-size: 20px;
-	margin-bottom: 10px; 
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .languages .card:hover {
-	transform: translateY(-15px)
+  transform: translateY(-15px);
 }
 
 /* Footer */
