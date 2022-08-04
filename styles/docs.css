@@ -1,16 +1,18 @@
 body{
     margin: 0;
 }
-/*section 1*/
-nav a{
+/*global styles*/
+li,a{
+    list-style-type: none;
     text-decoration: none;
-    color: var(--text-primary);
-
+    color: inherit;
 }
+
+/* containts the nav links and tha logo*/
 .containerOne{
     background-color: var(--primary-color);
-    padding: 0 100px 0 100px;
-    margin: 0;
+    padding:var(--padding-main);
+    margin: 0; 
     color: var(--text-primary)!important;
 }
 
@@ -27,12 +29,17 @@ nav a{
 }
 
 /* section 2*/
-li{
-    list-style-type: none;
-}
 .infoContainerTwo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 100px 0 100px;
+    padding: var(--padding-main);
+    margin:var(--cards-margin);
+}
+.essentials{
+    box-shadow: var(--cards-box-shadow);
+    border-radius: 10px;
+    padding: var(--cards-padding);
+    margin: var(--cards-margin);
+    color: #333;
 }

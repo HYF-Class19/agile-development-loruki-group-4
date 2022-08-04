@@ -5,48 +5,55 @@
     <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/docs.css">
+    <link rel="stylesheet" href="../styles/utilities.css">
     <title>another-page</title>
   </head>
   <body>
     <!--navigation section with page name and imag-->
     <div class="containerOne">
       <nav class="navclass">
-        <p>Loruki</p>
-        <div>
+        <p>Loruki.</p>
+        <div class="nav">
           <a href="#">Home</a>
           <a href="#">Features</a>
           <a href="#">Docs</a>
         </div>
       </nav>
-      <div class="pageNameInfoContainer">
-        <P>
-          <H2>Docs</H2>
-          <H2>Learn how to work with Loruki platform</H2>
-        </P>
-        <img src="../public/images/docs.png" width="100px" height="100px" alt="docs logo">
+      <div class="pageNameInfoContainer" id="pageName">
+        <div>
+          <h1>Docs</h1>
+          <p>Learn how to work with Loruki platform</p>
+      </div>
+        <img src="../public/images/docs.png" width="200px" height="200px" alt="docs logo">
       </div>
     </div>
+
       <!-- infos section with essentials and ..-->
-      <div class="essentials">
-        <p>title</p>
-        <ul>
-          <li><a href="#">blas</a></li>
-          <li><a href="#">blas</a></li>
-          <li><a href="#">blas</a></li>
-        </ul>
-        <p>title</p>
-      <ul>
-      <li><a href="#">blas</a></li>
-      <li><a href="#">blas</a></li>
-      <li><a href="#">blas</a></li>
-      <li><a href="#">blas</a></li>
-    </ul>
-    </div>
-    <!-- info section-->
-    <div>
-      <p class="info">info right</p>
-    </div>
-<!--footer-->
-    <footer>nav bar</footer>
-  </body>
-</html>
+      <div class="infoContainerTwo">
+
+        <div class="essentials">
+          <h3>Essentials
+          </h3>
+          <ul>
+            <li><a href="#pageName"> Introduction</a></li>
+            <li><a href="#pageName">About Loruki</a></li>
+            <li><a href="#pageName">Installation</a></li>
+          </ul>
+          <h3>Deployment</h3>
+          <ul>
+            <li ><a href="#pageName">Setting up a container</a></li>
+            <li><a href="#pageName">Using the CLI</a></li>
+            <li><a href="#pageName">Managing resources</a></li>
+            <li><a href="#pageName">Upgrade & downgrade</a></li>
+          </ul>
+        </div>
+        <!-- info section-->
+        <div>
+          <p class="info">info right</p>
+        </div>
+      </div>
+      <!--footer-->
+      <footer>nav bar</footer>
+      </body>
+      </html>
+      

@@ -3,6 +3,14 @@
   --secondary-color:#fff;
   --button-primary:#2041a1;
   --text-primary:#fff;
+  --padding-main: 0 180px 0 180px;
+  --container-width:1100px;
+  --container-margin:0 auto;
+  --cards-color:#333;
+  --cards-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  --cards-padding:20px;
+  --cards-margin:10px;
+  
 }
 .container {
   max-width: 1100px;
