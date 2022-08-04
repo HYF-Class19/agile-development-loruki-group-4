@@ -33,6 +33,10 @@
   transform: scale(0.98);
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Backgrounds & colored buttons */
 .bg-primary,
 .btn-primary {
@@ -103,10 +107,6 @@
 
 .xl {
   font-size: 4rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 /* Alert */
