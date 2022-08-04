@@ -1,27 +1,27 @@
-# constraints
+# Constraints
 
 Frame-work for our project
 
 ## Resources
 
-## Internal: Involuntary
+## External: Involuntary
 
 ### Time
 
-- One Weak
+- One Week
 
 ### Technology
 
 - GitHub
 - Vscode
 - HTML
-- css
+- CSS
 - excalidraw
 
-## Internal: Voluntary
+## External: Voluntary
 
 ### communication
 
-- slack , zoom
+- slack, zoom
 - 6-8 hours availability per person
 - 45 minutes meeting a day
