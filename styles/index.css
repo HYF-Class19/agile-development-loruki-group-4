@@ -130,7 +130,7 @@ overflow: visible;
   animation: slideInFromBottom 1s ease-in;
 }
 
->stats-heading{
+.stats-heading{
   max-width: 500px;
   margin: auto;
 }
