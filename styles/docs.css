@@ -16,15 +16,21 @@
 
 body{
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
 }
 /*global styles*/
-li,a{
+a{
     list-style-type: none;
     text-decoration: none;
     color: inherit;
     margin: 10px;
 }
-
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
 /* containts the nav links and tha logo*/
 .containerOne{
     background-color: var(--primary-color);
@@ -39,6 +45,10 @@ li,a{
     justify-content: space-between;
     align-items: baseline;
 }
+.navclass p{
+    font-size: 36px;
+    margin: 10px 0;
+}
 .pageNameInfoContainer{
     display: flex;
     flex-direction: row;
@@ -47,20 +57,38 @@ li,a{
 
 /* section 2*/
 .infoContainerTwo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
     padding: var(--padding-main);
     margin:var(--cards-margin);
 }
 .essentials{
-    display: flexbox;
     height: fit-content;
 }
-.infoContainerTwo a{
+.infoContainerTwo li{
+    font-size: 17px;
+    padding-bottom:5px;
+    margin:0 0 5px 0;
     border-bottom:#ccc 1px solid;
+    list-style-type: none;
     
 }
+ul{
+    margin: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+pre,code{
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 10px;
+}  
+pre{
+    display: flex;
+}
+
 /* Footer */
 .footer{
     color: var(--dark-color);
