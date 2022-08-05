@@ -53,8 +53,11 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 36px;
 }
-
+.pageNameInfoContainer h1{
+    margin-bottom: 0;
+}
 /* section 2*/
 .infoContainerTwo{
     display: grid;
