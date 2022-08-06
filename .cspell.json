@@ -20,7 +20,8 @@
     "Verwijs",
     "Todos",
     "Loruki",
-    "webhosting"
+    "webhosting",
+    "instalation"
   ],
   "ignorePaths": [
     "node_modules/**",

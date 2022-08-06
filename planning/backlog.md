@@ -7,13 +7,13 @@ create your own!
 
 ## Must-Haves
 
-## Navbar
+### Navbar
 
 - [] As a user I can use navbar to navigate myself to different pages
 
 > There is a suitable navbar links with the name of pages.
 
-## Installing
+### Installing
 
 - [] As a user I can see the instruction of installing on the docs page and demo
   on the home page
@@ -21,7 +21,7 @@ create your own!
 > There is a demo of installing the framework on the home page and more info on
 > the docs.
 
-## list of supported lang
+### list of supported lang
 
 - [] As a user I can see if this framework suitable to my programming language;
 
