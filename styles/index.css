@@ -268,7 +268,16 @@ pre {
 
   .cli .grid > *:first-child {
     grid-column: 1;
-    grid-row: 1;
+  }
+
+  #featur-hd,
+  #featur-two,
+  #featur-three,
+  #featur-five {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
   }
 }
 
