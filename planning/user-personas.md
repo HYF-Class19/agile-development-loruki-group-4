@@ -37,10 +37,16 @@ secure cloud hosting.
   should also allow for easy scalability with future updates and more users
   using the website.
 
-## Video game players
+## Video gameing companies
 
-- **Bio**: info on how fast loading and uploading data might benefit for
-  multiplying at the same time.
-- **Needs/Goals**: importance of getting all documents on one place.
-- **Frustrations**: network lagging on server overload and deployment hardship.
-- **Scenario 1**: Gamer want to deploy fast and easy cloud hosting remotely
+- **Bio**:TheJOOS is professional 3D Game streaming hub.
+- They have vast amount of Online users around the globe.
+- **Needs/Goals**:TheJoos wants large data storage and secure connection.
+- they also want high-bandwidth connection with low latency to streem.
+- **Frustrations**:Network lagging on server overload and deployment hardship.
+- security breach
+- **Scenario 1**:TheJoos has developed a high quality graphics game.
+- But their current host is hard to deploy and update ,as the software needs
+  maintenance every time. Its has also cause lagging on thier connection. this
+  has been headeach as their users number is decreasing.They are looking to
+  chenge new host which can be accessed anytime.
