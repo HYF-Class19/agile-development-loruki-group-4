@@ -1,6 +1,6 @@
-# Home page
+# Design
 
----
+## Home page
 
 ![design_home](../public/design.home.excalidraw.png)
 

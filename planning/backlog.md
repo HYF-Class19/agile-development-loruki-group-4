@@ -19,7 +19,7 @@ create your own!
 
 > There is a suitable navbar of links with the name of the pages.
 
-## Installing
+### Installing
 
 - [ ] As a user, I can see installation instructions on the docs page and a demo
       on the home page

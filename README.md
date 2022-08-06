@@ -1,24 +1,24 @@
-# Name of project
+# Loruki
 
-> A longer description
+> Loruki is the cloud hosting for developers and tech organizations.
 
 ## Table of contents
 
 - [Name of project](#name-of-project)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Screenshots](#screenshots)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
-  - [Instructions for use](#instructions-for-use)
-  - [Code Quality Checks](#code-quality-checks)
-  - [Continuous Integration (CI)](#continuous-integration-ci)
-  - [Repo Setup](#repo-setup)
+- [Table of contents](#table-of-contents)
+- [General info](#general-info)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Code Examples](#code-examples)
+- [Features](#features)
+- [Status](#status)
+- [Inspiration](#inspiration)
+- [Contact](#contact)
+- [Instructions for use](#instructions-for-use)
+- [Code Quality Checks](#code-quality-checks)
+- [Continuous Integration (CI)](#continuous-integration-ci)
+- [Repo Setup](#repo-setup)
 
 ## General info
 
@@ -26,51 +26,61 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/Loruki-home-page.png)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
-- `npm run start`
+- download vscode & install [source](https://code.visualstudio.com/download)
+- Clone a
+  [repository](https://github.com/HYF-Class19/agile-development-loruki-group-4.git)
+  and start editing
+- Have a git version on your computer
+- install node packages manager
+- Edit CSS file & HTML files
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="container flex">
+    <h1 class="logo">Loruki.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="docs.html">Docs</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
 ```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by [traversy](https://github.com/bradtraversy)
 
 ## Contact
 
-By [Name]
+### Rebuild by
+
+- [Lemma-Barnabas](https://github.com/Lemma-Barnabas)
+- [Inna](https://github.com/inna9Z)
+- [BrianMunene96](https://github.com/BrianMunene96)
+- [Azima](https://github.com/AzimaKai)
+- [Pidnebesnyi Oleksii](https://github.com/podnesTaF)
+- [Verousca](https://github.com/Verousca)
 
 ## Instructions for use
 
