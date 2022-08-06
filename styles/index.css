@@ -268,11 +268,8 @@ pre {
 
   .cli .grid > *:first-child {
     grid-column: 1;
-    
   }
-
-  }
-
+}
 
 /* Mobile */
 @media (max-width: 500px) {
@@ -289,18 +286,20 @@ pre {
     background-color: rgba(0, 0, 0, 0.1);
   }
 
-   .grid-3{
+  .grid-3 {
     display: grid;
-    grid-template-columns:1fr;
-   }
-   
-   #featur-hd , #featur-two , #featur-three , #featur-five {
+    grid-template-columns: 1fr;
+  }
+
+  #featur-hd,
+  #featur-two,
+  #featur-three,
+  #featur-five {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
   }
-
 }
 
 .container {
