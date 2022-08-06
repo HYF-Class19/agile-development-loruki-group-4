@@ -8,7 +8,7 @@
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
   --error-color: #d9534f;
-  --secondary-border-color:#ccc;
+  --secondary-border-color: #ccc;
 }
 
 * {
@@ -288,10 +288,10 @@ pre {
     background-color: rgba(0, 0, 0, 0.1);
   }
 
-  .docs-main .grid{
+  .docs-main .grid {
     display: flex;
     flex-direction: column;
-  } 
+  }
 }
 
 .container {
@@ -300,7 +300,6 @@ pre {
   overflow: auto;
   padding: 0 40px;
 }
-
 
 /* Languages */
 .languages .flex {
@@ -351,13 +350,13 @@ pre {
 
 /* Docs */
 
-.docs-main .grid{
+.docs-main .grid {
   grid-template-columns: 1fr 2fr;
   align-items: flex-start;
 }
 
-.docs-main nav li{
-  border-bottom:1px #ccc solid;
+.docs-main nav li {
+  border-bottom: 1px #ccc solid;
 }
 
 /* Footer */
