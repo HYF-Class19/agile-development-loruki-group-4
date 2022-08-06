@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>another-page</title>
-  </head>
-  <body></body>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="icon" type="image/svg+xml" href="../public/images/favicon.png" />
+      <link rel="stylesheet" href="../styles/index.css" />
+      <link rel="stylesheet" href="../styles/utilities.css" />
+      <title>Loruki | Cloud Hosting for Everyone</title>
+    </head>
+  <body>
+     <!-- Navbar -->
+     <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Loruki.</h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Head area -->
+    <section class="features-head bg-primary py-3">
+      <div class="container grid">
+        <div>
+          <h1 class="xl">Docs</h1>
+          <p class="lead">
+            Learn how to work with Loruki platform
+          </p>
+        </div>
+        <img src="../public/images/docs.png" alt="documents image" />
+      </div>
+    </section>
+    <!--main section-->
+    <section class="docs-main my-4">
+      <div class="docs-main container grid">
+
+        <div class="card bg-light p-3" >
+          <h3 class="my-2">Essentials</h3>
+          <nav>
+            <ul>
+              <li><a  class="text-primary" href="#pages">Introduction</a></li>
+              <li><a href="#pages">About Loruki</a></li>
+              <li><a href="#pages">Installation</a></li>
+            </ul>
+          </nav>
+          <h3 class="my-2">Deployment</h3>
+          <nav>
+            <ul>
+              <li><a href="#pages">Setting up the container</a></li>
+              <li><a href="#pages"></a>Using the CLI</li>
+              <li><a href="#pages"></a>Managing resources</li>
+              <li><a href="#pages"></a>Upgrade &amp; downgrade</li>
+            </ul>
+          </nav>
+      </div>
+      <div class="card">
+        <h2>Introduction</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa odio, totam voluptatibus iusto est minus temporibus perspiciatis. Excepturi explicabo ut vitae aliquid optio natus dignissimos eaque quam aliquam magni!</p>
+        <div class="alert alert-success">
+          <i class="fas fa-info"></i>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <h3>Lorem,ipsome balh blah</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eos atque tenetur voluptate inventore illum vel alias.</p>
+        <a href="#" class="btn btn-primary">Install CLI</a>
+        <h3>Requirements</h3>
+        <ul>
+          <li>Windows 10, Mac OSX, Linux</li>
+          <li>Node.js v12 or higher</li>
+        </ul>
+        <h3>Install</h3>
+        <p>Mac (Homebrew)</p>
+        <pre>
+          <code>$ brew install loruki-cli</code>
+        </pre>
+        <p>NPM</p>
+        <pre>
+          <code>$ npm install loruki-cli</code>
+        </pre>
+        <p>Yarn</p>
+        <pre>
+          <code>$ yarn install loruki-cli</code>
+        </pre>
+      </div>
+    </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Loruki</h1>
+          <p>Copyright &copy; 2022</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./docs.html">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x">.</i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x">.</i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x">.</i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x">.</i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
