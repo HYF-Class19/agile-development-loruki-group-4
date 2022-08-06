@@ -1,8 +1,8 @@
 # Retrospective
 
-For a project of re-creating a reponsive webpage, we were assigned as a group to
-learn how to work together and help each other accomplish this task and make it
-a success.
+For a project of re-creating a responsive webpage, we were assigned as a group
+to learn how to work together and help each other accomplish this task and make
+it a success.
 
 ## Stop Doing
 
@@ -18,7 +18,7 @@ a success.
 
 ## Start Doing
 
-- Running the lint:css and validate:HTML commands since we are witing HTML and
+- Running the lint:css and validate:HTML commands since we are writing HTML and
   CSS codes.
 
 ## Lessons Learned

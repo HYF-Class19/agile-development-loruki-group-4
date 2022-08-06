@@ -21,7 +21,7 @@
 
 ### 1. Title
 
- > As a user I can find a title of the page
+> As a user I can find a title of the page
 
 - The web title and easy to find
 

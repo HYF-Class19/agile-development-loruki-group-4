@@ -37,7 +37,7 @@
 
 ## Setup
 
-- download vscode & install [sorce](https://code.visualstudio.com/download)
+- download vscode & install [source](https://code.visualstudio.com/download)
 - Clone a
   [repository](https://github.com/HYF-Class19/agile-development-loruki-group-4.git)
   and start editing
@@ -73,7 +73,7 @@ Project by [traversy](https://github.com/bradtraversy)
 
 ## Contact
 
-### Rebild by:
+### Rebuild by
 
 - [Lemma-Barnabas](https://github.com/Lemma-Barnabas)
 - [Inna](https://github.com/inna9Z)
