@@ -6,7 +6,6 @@
 
 - [Name of project](#name-of-project)
 - [Table of contents](#table-of-contents)
-- [General info](#general-info)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
@@ -19,10 +18,6 @@
 - [Code Quality Checks](#code-quality-checks)
 - [Continuous Integration (CI)](#continuous-integration-ci)
 - [Repo Setup](#repo-setup)
-
-## General info
-
-> A short description
 
 ## Screenshots
 
